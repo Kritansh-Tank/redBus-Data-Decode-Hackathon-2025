@@ -130,18 +130,6 @@ When run, the pipeline prints:
 
 ---
 
-## 📁 Repository Structure (Recommended)
-
-├── train/
-│ ├── train.csv
-│ ├── transactions.csv
-├── test_8gqdJqH.csv
-├── eda_model_pipeline.py
-├── submission.csv
-├── README.md
-
----
-
 ## 🏁 How to Run
 
 ```bash
