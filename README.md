@@ -108,3 +108,41 @@ Blends predictions from all trained models using weighted averaging:
 Full pipeline includes:
 
 Load → Feature Engineering → Train → Predict → Visualize → Submit
+
+---
+
+## 📊 Summary Output
+
+When run, the pipeline prints:
+
+- A preview of the submission
+- Total number of predictions
+- Average, min, and max predicted demand
+
+---
+
+## 🧠 Highlights
+
+- Modular and robust pipeline with fallback models  
+- Handles structured data and time series effectively  
+- Feature-rich with domain-specific + statistical features  
+- Scalable for different data sizes and future enhancements  
+
+---
+
+## 📁 Repository Structure (Recommended)
+
+├── train/
+│ ├── train.csv
+│ ├── transactions.csv
+├── test_8gqdJqH.csv
+├── eda_model_pipeline.py
+├── submission.csv
+├── README.md
+
+---
+
+## 🏁 How to Run
+
+```bash
+python eda_model_pipeline.py
