@@ -12,11 +12,6 @@ This project predicts the final number of bus seats booked (`final_seatcount`) f
 
 ## 🔍 1. Data Loading and Cleaning
 
-### 📂 Datasets Used:
-- `train.csv`: Historical route and booking data.
-- `test.csv`: Future journeys to predict demand for.
-- `transactions.csv`: Search and booking activity logs.
-
 ### 🧹 Preprocessing:
 - **Date Parsing**: Converts `doj` and `doi` into datetime format.
 - **Data Cleaning**: Removes rows with invalid/missing dates.
@@ -85,10 +80,9 @@ Blends predictions from all trained models using weighted averaging:
 
 ---
 
-## 🧾 6. Submission and Output (`predict`)
+## 🧾 6. Output (`predict`)
 
 - Generates predictions on test data using the best model
-- Outputs CSV file: `submission.csv`
 - Columns: `route_key`, `final_seatcount`
 
 ---
